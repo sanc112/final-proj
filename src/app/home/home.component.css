@@ -1,5 +1,5 @@
 #background {
-    background-color: #0a8754;
+    background-color: #dce1de;
     background-size: cover;
     width:100vw;
     height:105vh;
@@ -27,3 +27,40 @@
 iframe {
     float: center;
 }
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic);
+
+*{margin: 0px; padding: 0px}
+
+
+h1, button{
+  color:#1f2421;
+  text-align: center;
+  padding: 20px;
+}
+
+p{
+  color:#1f2421;
+  text-align: center;
+  padding-top: 500px;
+  font-size: 10px;
+}
+
+a{
+   text-decoration:none;
+   color:#1f2421;
+}
+
+a:hover{
+   color:#2ecc71;
+}
+
+.main{
+  width: 100%;
+}
+
+.sub-main{
+  width: 30%;
+  margin:22px;
+  float: left;
+}
+

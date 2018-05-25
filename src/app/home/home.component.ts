@@ -31,8 +31,8 @@ export class HomeComponent implements OnInit {
 // THIS IS A LIFE CYCLE HOOK, HAPPENS EVERYTIME A PAGE LOADS
   ngOnInit() { 
     (<any>window).loading_screen = (<any>window).pleaseWait({
-      logo: 'assets/logo.png',
-      backgroundColor: '#605f5e',
+      logo: 'assets/musiclogo.png',
+      backgroundColor: '#222629',
       loadingHTML: '<p class="loading-message">loading</p>'
 
     });
@@ -40,8 +40,13 @@ export class HomeComponent implements OnInit {
     setTimeout(() => {
       (<any>window).loading_screen.finish();
     }, 200);
-  }
+    const btns = document.querySelectorAll('.btn.liquid')
+for (let btn of btns) {
+  new LiquidButton(btn)
 }
+
+}
+
 // this.http.get ('http://localhost:4200/home')
 // .subscribe ((response:any)) => 'all'{
 //   console.log(response);
