@@ -1,0 +1,59 @@
+import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
+})
+export class HomeComponent implements OnInit {
+  public iframeList = [
+    {
+      genre: 'german',
+      code: 'https://open.spotify.com/embed/track/7pvnUtzikWUp3DUxVAetbn',
+      active: true,
+    },
+    {
+      genre: 'german',
+      code: '',
+      active: true
+    }
+  ]
+  public currentIframe = {
+    genre: '',
+    code: '',
+    active: false
+  };
+
+
+  constructor(public http: HttpClient) { }
+// THIS IS A LIFE CYCLE HOOK, HAPPENS EVERYTIME A PAGE LOADS
+  ngOnInit() { 
+    (<any>window).loading_screen = (<any>window).pleaseWait({
+      logo: 'assets/logo.png',
+      backgroundColor: '#605f5e',
+      loadingHTML: '<p class="loading-message">loading</p>'
+
+    });
+
+    setTimeout(() => {
+      (<any>window).loading_screen.finish();
+    }, 200);
+  }
+}
+// this.http.get ('http://localhost:4200/home')
+// .subscribe ((response:any)) => 'all'{
+//   console.log(response);
+// }
+
+//   rockClick(){
+//     this.currentIframe = this.iframeList[0];
+//   }
+
+//   popClick(){
+//     this.currentIframe = this.iframeList[1];
+//   }
+// }
+
+

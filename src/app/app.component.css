@@ -1,0 +1,21 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1e3f20;
+    color: #94ecbe;
+    text-align: center;
+    font-family: helvetica;
+ }
+
+ h2 {
+    margin-top: 20px; 
+    font-size: 12px;
+     text-align: center;
+     font-family: helvetica;
+ }
+
+ p {
+     font-size: 12px;
+ }

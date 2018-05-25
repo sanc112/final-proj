@@ -1,0 +1,29 @@
+#background {
+    background-color: #0a8754;
+    background-size: cover;
+    width:100vw;
+    height:105vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.btn-1{
+    flex: 1;
+    justify-content: space-around;
+    padding-right: 40px;
+}
+.btn-2{
+    flex:1;
+    padding-right: 40px;
+}
+.btn-3{
+    flex:1;
+    padding-right: 40px;
+}
+
+iframe {
+    float: center;
+}
