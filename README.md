@@ -1,5 +1,7 @@
 # NewSound
 
+This be my project. I am using spotify API to show music on my site.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
 ## Development server
