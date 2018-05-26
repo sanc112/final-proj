@@ -37,15 +37,15 @@ export class HomeComponent implements OnInit {
 
     });
 
-    setTimeout(() => {
-      (<any>window).loading_screen.finish();
-    }, 200);
-    const btns = document.querySelectorAll('.btn.liquid')
-for (let btn of btns) {
-  new LiquidButton(btn)
-}
+//     setTimeout(() => {
+//       (<any>window).loading_screen.finish();
+//     }, 200);
+//     const btns = document.querySelectorAll('.btn.liquid')
+// for (let btn of btns) {
+//   new LiquidButton(btn)
+// }
 
-}
+// }
 
 // this.http.get ('http://localhost:4200/home')
 // .subscribe ((response:any)) => 'all'{
