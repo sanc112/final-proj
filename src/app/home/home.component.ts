@@ -33,13 +33,13 @@ export class HomeComponent implements OnInit {
     (<any>window).loading_screen = (<any>window).pleaseWait({
       logo: 'assets/musiclogo.png',
       backgroundColor: '#222629',
-      loadingHTML: '<p class="loading-message">loading</p>'
+      loadingHTML:'<i class="fas fa-spinner"></i>'
 
     });
 
     setTimeout(() => {
       (<any>window).loading_screen.finish();
-    }, 200);
+    }, 3000);
     
 }
 

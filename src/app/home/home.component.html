@@ -1,17 +1,61 @@
-<div id="background" class="background-img">
-  <div class="container">
-    <!-- This goes in home.component.html -->
-    
-    <a href="http://medmen.com" class="btn-liquid">
-      <span class="inner">Sami's Button</span>
-    </a>
+<div id="background">
+<div class="container">
+    <div class="row">
+      <div class="title">
+          <h1>This website introduces you the #1 song of a specific genre in all 58 countries listed on Spotify. Click a genre to start.</h1>
 
-      
-
+      </div>
+      <div class="col">
+          <div class="row ">
+              <div class="col-sm container2">
+                <div id="button2" class='btn-3'>
+                  <a routerLink="/map">
+                    <button>REGGAE</button>
+                  </a>
+                </div>
+                <div id="button3" class='btn-3'>
+                  <a routerLink="/map">
+                    <button>FOLK</button>
+                  </a>
+                </div>
+                <div id="button4" class='btn-3'>
+                  <a routerLink="/map">
+                    <button>JAZZ</button>
+                  </a>
+                </div>
+                <div id="button5" class='btn-3'>
+                  <a routerLink="/map">
+                    <button>HIP-HOP</button>
+                  </a>
+                </div>
+                <div id="button6" class='btn-3'>
+                  <a routerLink="/map">
+                    <button>EDM</button>
+                  </a>
+                </div>
+                <div id="button7" class='btn-3'>
+                  <a routerLink="/map">
+                    <button>R&B</button>
+                  </a>
+                </div>
+                <div id="button8" class='btn-3'>
+                    <button (click)="rockClick()">ROCK</button>
+                </div>
+        
+          
+        
+        
+            </div>
+          </div>
+      </div>
     </div>
   </div>
 </div>
-</div>
+
+
+<section class="dark">
+  <a class="button button--rect button--rect--light" href="">Click Here</a>
+</section>
 
 
 <!-- <div class="content" *ngIf="currentIframe.active">

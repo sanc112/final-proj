@@ -1,55 +1,51 @@
 #background {
-    background-color: #dce1de;
+    background-color: black;
     background-size: cover;
     width:100vw;
-    height:105vh;
+    height:90vh;
 }
-
+ h1 {
+     font-size: 20px;
+     color: #f9f9f9;
+     text-align: center;
+     font-family: helvetica;
+     font-weight: lighter;
+   
+ }
 .container {
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 170px;
+    padding-right: 15px;
 }
-/* This goes in home.component.css */
-/* Start Liquid Button CSS */
-body {
-	display: flex;
-	height: 100vh;
-
-	align-items: center;
-	justify-content: center;
+.container2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
 }
 
-.btn-liquid {
-	display: inline-block;
-	position: relative;
-	width: 240px;
-	height: 60px;
-
-	border-radius: 27px;
-
-	color: #fff;
-	font: 700 14px/60px "Droid Sans", sans-serif;
-	letter-spacing: 0.05em;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
+.btn-3 {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 12px;
 }
 
-.btn-liquid .inner {
-	position: relative;
-
-	z-index: 2;
+button:hover {
+    background-color: #94ecbe;
 }
 
-.btn-liquid canvas {
-	position: absolute;
-	top: -50px;
-	right: -50px;
-	bottom: -50px;
-	left: -50px;
-
-	z-index: 1;
+button {
+    background-color: #34403A;
+    color: white;
+    font-family: helvetica;
+    height: 40px;
+    length: 10px;
+    outline: none;
 }
-/* End Liquid Button CSS */
+
+    
+
+
+
+
 
