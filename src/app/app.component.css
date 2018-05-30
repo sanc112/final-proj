@@ -9,7 +9,7 @@
     bottom: 0;
     width: 100%;
     background-color:black;
-    color: black;
+    color: #1db954;
     text-align: center;
     font-family: helvetica;
  }
@@ -19,20 +19,20 @@
     font-size: 10px;
      text-align: center;
      font-family: helvetica;
-     color: white;
+     color: #1db954;
      font-weight: lighter;
      
  }
 
 a {
-     color: #f9f9f9;
+     color: #1db954;
      font-family: Helvetica;
      font-weight: bold;
  }
 
  p {
      font-size: 10px;
-     color: white;
+     color: #1db954;
      font-weight: lighter;
      
  }

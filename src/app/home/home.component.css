@@ -10,18 +10,19 @@
      text-align: center;
      font-family: helvetica;
      font-weight: lighter;
+
    
  }
 .container {
     display: flex;
     justify-content: center;
-    padding-top: 170px;
+    padding-top: 140px;
     padding-right: 15px;
 }
 .container2 {
     display: flex;
     justify-content: center;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .btn-3 {
@@ -31,17 +32,25 @@
 }
 
 button:hover {
-    background-color: #94ecbe;
+    background-color: #1db954;
 }
 
 button {
-    background-color: #34403A;
-    color: white;
-    font-family: helvetica;
-    height: 40px;
-    length: 10px;
+    background-color: #f9f9f9;
+    color: black;
+    font-family: Helvetica;
     outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 55px; 
+-moz-border-radius: 55px; 
+-webkit-border-radius: 55px; 
+border: 1px solid #f9f9f9;
 }
+
+
 
     
 

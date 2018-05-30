@@ -31,15 +31,15 @@ export class HomeComponent implements OnInit {
 // THIS IS A LIFE CYCLE HOOK, HAPPENS EVERYTIME A PAGE LOADS
   ngOnInit() { 
     (<any>window).loading_screen = (<any>window).pleaseWait({
-      logo: 'assets/musiclogo.png',
-      backgroundColor: '#222629',
+      logo: 'assets/updatedspacing.png',
+      backgroundColor: '#1db954',
       loadingHTML:'<i class="fas fa-spinner"></i>'
 
     });
 
     setTimeout(() => {
       (<any>window).loading_screen.finish();
-    }, 3000);
+    }, 2000);
     
 }
 
