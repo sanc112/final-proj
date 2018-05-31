@@ -16,7 +16,7 @@
 .container {
     display: flex;
     justify-content: center;
-    padding-top: 140px;
+    padding-top: 200px;
     padding-right: 15px;
 }
 .container2 {
@@ -47,9 +47,13 @@ button {
     border-radius: 55px; 
 -moz-border-radius: 55px; 
 -webkit-border-radius: 55px; 
-border: 1px solid #f9f9f9;
+border: 1px solid #000000;
+cursor: pointer;
 }
 
+#intro img{
+    text-align: center;
+}
 
 
     

@@ -5,9 +5,10 @@ import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css', '../_theme/loader.css']
 })
 export class HomeComponent implements OnInit {
+  public loader = true;
   public iframeList = [
     {
       genre: 'german',
@@ -20,6 +21,7 @@ export class HomeComponent implements OnInit {
       active: true
     }
   ]
+
   public currentIframe = {
     genre: '',
     code: '',
@@ -28,35 +30,34 @@ export class HomeComponent implements OnInit {
 
 
   constructor(public http: HttpClient) { }
-// THIS IS A LIFE CYCLE HOOK, HAPPENS EVERYTIME A PAGE LOADS
-  ngOnInit() { 
-    (<any>window).loading_screen = (<any>window).pleaseWait({
-      logo: 'assets/updatedspacing.png',
-      backgroundColor: '#1db954',
-      loadingHTML:'<i class="fas fa-spinner"></i>'
+  // THIS IS A LIFE CYCLE HOOK, HAPPENS EVERYTIME A PAGE LOADS
+  ngOnInit() {
+    // (<any>window).loading_screen = (<any>window).pleaseWait({
+    //   logo: '',
+    //   backgroundColor: '#1db954',
+    //   loadingHTML: '<div class="equalizer> </div>'
 
-    });
+    // });
 
     setTimeout(() => {
-      (<any>window).loading_screen.finish();
-    }, 2000);
+      this.loader =false;
+    }, 100);
+
+  }
+    // this.http.get ('http://localhost:4200/home')
+    // .subscribe ((response:any)) => 'all'{
+    //   console.log(response);
+    // }
     
+      rockClick(){
+        this.currentIframe = this.iframeList[0];
+      }
+    
+      popClick(){
+        this.currentIframe = this.iframeList[1];
+      }
 }
 
-}
 
-// this.http.get ('http://localhost:4200/home')
-// .subscribe ((response:any)) => 'all'{
-//   console.log(response);
-// }
-
-//   rockClick(){
-//     this.currentIframe = this.iframeList[0];
-//   }
-
-//   popClick(){
-//     this.currentIframe = this.iframeList[1];
-//   }
-// }
 
 
