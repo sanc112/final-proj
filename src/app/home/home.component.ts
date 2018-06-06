@@ -181,8 +181,7 @@ export class HomeComponent implements OnInit {
       code: 'https://open.spotify.com/embed/track/5Nzrol1S9iKYwXt11CjM2n',
       desc: 'German R&B.',
       active: true,
-    },
-    {
+    },{
       genre: 'rb',
       code: 'https://open.spotify.com/embed/track/23XuOU5Rw8ebOfkjdHNcdq',
       desc: 'Portugese R&B.',
@@ -329,6 +328,150 @@ export class HomeComponent implements OnInit {
       active: true,
     },
   ]
+    // now this in my rap list.
+    public rapList = [
+      {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/6Ry0yBrx43cBlgkSJ5v9Rd',
+        desc: 'German Rap.',
+        active: true,
+      },{
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/7vgNGxchhqDQWjKjLPTPro',
+        desc: 'Portugese Rap.',
+        active: true,
+      },{
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/5AiZAl1zyM1DW2ANspOjFg',
+        desc: 'Polish Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/2v34KNVUnkIX80NsASvhZK',
+        desc: 'Arabic Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/3pOkmFi5UCjVYDcIJ5fsoy',
+        desc: 'Vietnamese Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/7r5YX0RtOQ3mM27WSbUFvP',
+        desc: 'Hindi Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/6jtcu0aWtnAjCxPgebjhWY',
+        desc: 'Ukrainian Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/0MoO1Glg9D4l3aAbUYGKD8',
+        desc: 'Russian Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/72uecKUw0CCGWZCP7tzT0y',
+        desc: 'Taiwanese Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/093RgZ7RXHZwIrxZhZYX4Q',
+        desc: 'Italian Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/1VNHyFYkNXY1mhOqrpEvYT',
+        desc: 'Turkish Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/0suTGmqnLzlVRWyjOjyw2C',
+        desc: 'French Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/6q26d5CzA9aagFRhEiMyMd',
+        desc: 'Thai Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/1z3KPocyJO3WEOgJTKmajH',
+        desc: 'Mandarin Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/2wEwwmIKTK6RCmH1F7wNjp',
+        desc: 'Serbian Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/6MRuNaMaH65vGyek33fXMV',
+        desc: 'Punjabi Rap.',
+        active: true,
+      },{
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/2UT8xTS5r0lWTyCmdIfJMT',
+        desc: 'Albanian Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/4mGMdtaVIwKRB8pblnPWCF',
+        desc: 'Korean Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/3hv6T6xuDW6c9uuTNHayx7',
+        desc: 'Hebrew Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/7qmWQlk6sTGxFYNnw78ZH6',
+        desc: 'Persian Rap',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/2SGOTyqJcOnskDuKrENGVv',
+        desc: 'Magyar (Hungarian) Rap',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/1BwrZ8tZ3sN7cMqDoQ91hd',
+        desc: 'Icelandic Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/7L0izGzp9W85naH8QUBYe2',
+        desc: 'Greek Rap',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/1dmDBcwQffiuxdOI8w7pLR',
+        desc: 'Armenian Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/7FCnqHlYRs2RcnMcBRlj5a',
+        desc: 'Croatian Rap. ',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/5n4uYhHyaVJ8QBRF4WFn0R',
+        desc: 'Swahili Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/5IRBWRvuAHxELkJrt2QlTr',
+        desc: 'Quechuan Rap.',
+        active: true,
+      }, {
+        genre: 'rap',
+        code: 'https://open.spotify.com/embed/track/3V5YcSq5p8hdJUIt7NvgeB',
+        desc: 'Bulgarian Rap',
+        active: true,
+      },
+    ]
 
   public currentIframe = {
     genre: '',
@@ -370,7 +513,23 @@ export class HomeComponent implements OnInit {
       this.currentIframe = this.rbList[this.currentState.index];
     }
   }
+// this is my rap click.
+  rapClick(){
+    console.log(this.currentState.index);
+    if( this.currentState.genre != 'rap'){
+      this.currentState.genre = 'rap';
+      this.currentIframe = this.rapList[0];
+    }else{
+      this.currentState.index = this.currentState.index + 1;
+      
+      if(this.currentState.index === this.rapList.length){
+        this.currentState.index = 0;
+      }
 
+      console.log(this.currentState.index);
+      this.currentIframe = this.rapList[this.currentState.index];
+    }
+  }
 
 
 
