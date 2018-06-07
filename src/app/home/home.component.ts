@@ -472,6 +472,438 @@ export class HomeComponent implements OnInit {
         active: true,
       },
     ]
+    // now this in my rap list.
+    public jazzList = [
+      {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/6Ry0yBrx43cBlgkSJ5v9Rd',
+        desc: 'German Jazz.',
+        active: true,
+      },{
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/7vgNGxchhqDQWjKjLPTPro',
+        desc: 'Portugese Jazz.',
+        active: true,
+      },{
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/5AiZAl1zyM1DW2ANspOjFg',
+        desc: 'Polish Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/2v34KNVUnkIX80NsASvhZK',
+        desc: 'Arabic Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/3pOkmFi5UCjVYDcIJ5fsoy',
+        desc: 'Vietnamese Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/7r5YX0RtOQ3mM27WSbUFvP',
+        desc: 'Hindi Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/6jtcu0aWtnAjCxPgebjhWY',
+        desc: 'Ukrainian Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/0MoO1Glg9D4l3aAbUYGKD8',
+        desc: 'Russian Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/72uecKUw0CCGWZCP7tzT0y',
+        desc: 'Taiwanese Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/093RgZ7RXHZwIrxZhZYX4Q',
+        desc: 'Italian Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/1VNHyFYkNXY1mhOqrpEvYT',
+        desc: 'Turkish Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/0suTGmqnLzlVRWyjOjyw2C',
+        desc: 'French Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/6q26d5CzA9aagFRhEiMyMd',
+        desc: 'Thai Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/1z3KPocyJO3WEOgJTKmajH',
+        desc: 'Mandarin Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/2wEwwmIKTK6RCmH1F7wNjp',
+        desc: 'Serbian Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/6MRuNaMaH65vGyek33fXMV',
+        desc: 'Punjabi Jazz.',
+        active: true,
+      },{
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/2UT8xTS5r0lWTyCmdIfJMT',
+        desc: 'Albanian Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/4mGMdtaVIwKRB8pblnPWCF',
+        desc: 'Korean Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/3hv6T6xuDW6c9uuTNHayx7',
+        desc: 'Hebrew Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/7qmWQlk6sTGxFYNnw78ZH6',
+        desc: 'Persian Jazz',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/2SGOTyqJcOnskDuKrENGVv',
+        desc: 'Magyar (Hungarian) Jazz',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/1BwrZ8tZ3sN7cMqDoQ91hd',
+        desc: 'Icelandic Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/7L0izGzp9W85naH8QUBYe2',
+        desc: 'Greek Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/1dmDBcwQffiuxdOI8w7pLR',
+        desc: 'Armenian Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/7FCnqHlYRs2RcnMcBRlj5a',
+        desc: 'Croatian Jazz. ',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/5n4uYhHyaVJ8QBRF4WFn0R',
+        desc: 'Swahili Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/5IRBWRvuAHxELkJrt2QlTr',
+        desc: 'Quechuan Jazz.',
+        active: true,
+      }, {
+        genre: 'jazz',
+        code: 'https://open.spotify.com/embed/track/3V5YcSq5p8hdJUIt7NvgeB',
+        desc: 'Bulgarian Jazz.',
+        active: true,
+      },
+    ]
+    // now this in my rap list.
+    public folkList = [
+      {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/6Ry0yBrx43cBlgkSJ5v9Rd',
+        desc: 'German Folk.',
+        active: true,
+      },{
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/7vgNGxchhqDQWjKjLPTPro',
+        desc: 'Portugese Folk.',
+        active: true,
+      },{
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/5AiZAl1zyM1DW2ANspOjFg',
+        desc: 'Polish Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/2v34KNVUnkIX80NsASvhZK',
+        desc: 'Arabic Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/3pOkmFi5UCjVYDcIJ5fsoy',
+        desc: 'Vietnamese Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/7r5YX0RtOQ3mM27WSbUFvP',
+        desc: 'Hindi Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/6jtcu0aWtnAjCxPgebjhWY',
+        desc: 'Ukrainian Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/0MoO1Glg9D4l3aAbUYGKD8',
+        desc: 'Russian Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/72uecKUw0CCGWZCP7tzT0y',
+        desc: 'Taiwanese Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/093RgZ7RXHZwIrxZhZYX4Q',
+        desc: 'Italian Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/1VNHyFYkNXY1mhOqrpEvYT',
+        desc: 'Turkish Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/0suTGmqnLzlVRWyjOjyw2C',
+        desc: 'French Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/6q26d5CzA9aagFRhEiMyMd',
+        desc: 'Thai Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/1z3KPocyJO3WEOgJTKmajH',
+        desc: 'Mandarin Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/2wEwwmIKTK6RCmH1F7wNjp',
+        desc: 'Serbian Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/6MRuNaMaH65vGyek33fXMV',
+        desc: 'Punjabi Folk.',
+        active: true,
+      },{
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/2UT8xTS5r0lWTyCmdIfJMT',
+        desc: 'Albanian Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/4mGMdtaVIwKRB8pblnPWCF',
+        desc: 'Korean Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/3hv6T6xuDW6c9uuTNHayx7',
+        desc: 'Hebrew Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/7qmWQlk6sTGxFYNnw78ZH6',
+        desc: 'Persian Folk',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/2SGOTyqJcOnskDuKrENGVv',
+        desc: 'Magyar (Hungarian) Folk',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/1BwrZ8tZ3sN7cMqDoQ91hd',
+        desc: 'Icelandic Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/7L0izGzp9W85naH8QUBYe2',
+        desc: 'Greek Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/1dmDBcwQffiuxdOI8w7pLR',
+        desc: 'Armenian Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/7FCnqHlYRs2RcnMcBRlj5a',
+        desc: 'Croatian Folk. ',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/5n4uYhHyaVJ8QBRF4WFn0R',
+        desc: 'Swahili Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/5IRBWRvuAHxELkJrt2QlTr',
+        desc: 'Quechuan Folk.',
+        active: true,
+      }, {
+        genre: 'folk',
+        code: 'https://open.spotify.com/embed/track/3V5YcSq5p8hdJUIt7NvgeB',
+        desc: 'Bulgarian Folk.',
+        active: true,
+      },
+    ]
+    // now this in my pop list.
+    public popList = [
+      {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/6Ry0yBrx43cBlgkSJ5v9Rd',
+        desc: 'German Pop.',
+        active: true,
+      },{
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/7vgNGxchhqDQWjKjLPTPro',
+        desc: 'Portugese Pop',
+        active: true,
+      },{
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/5AiZAl1zyM1DW2ANspOjFg',
+        desc: 'Polish Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/2v34KNVUnkIX80NsASvhZK',
+        desc: 'Arabic Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/3pOkmFi5UCjVYDcIJ5fsoy',
+        desc: 'Vietnamese Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/7r5YX0RtOQ3mM27WSbUFvP',
+        desc: 'Hindi Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/6jtcu0aWtnAjCxPgebjhWY',
+        desc: 'Ukrainian Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/0MoO1Glg9D4l3aAbUYGKD8',
+        desc: 'Russian Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/72uecKUw0CCGWZCP7tzT0y',
+        desc: 'Taiwanese Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/093RgZ7RXHZwIrxZhZYX4Q',
+        desc: 'Italian Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/1VNHyFYkNXY1mhOqrpEvYT',
+        desc: 'Turkish Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/0suTGmqnLzlVRWyjOjyw2C',
+        desc: 'French Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/6q26d5CzA9aagFRhEiMyMd',
+        desc: 'Thai Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/1z3KPocyJO3WEOgJTKmajH',
+        desc: 'Mandarin Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/2wEwwmIKTK6RCmH1F7wNjp',
+        desc: 'Serbian Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/6MRuNaMaH65vGyek33fXMV',
+        desc: 'Punjabi Pop.',
+        active: true,
+      },{
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/2UT8xTS5r0lWTyCmdIfJMT',
+        desc: 'Albanian Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/4mGMdtaVIwKRB8pblnPWCF',
+        desc: 'Korean Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/3hv6T6xuDW6c9uuTNHayx7',
+        desc: 'Hebrew Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/7qmWQlk6sTGxFYNnw78ZH6',
+        desc: 'Persian Pop',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/2SGOTyqJcOnskDuKrENGVv',
+        desc: 'Magyar (Hungarian) Pop',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/1BwrZ8tZ3sN7cMqDoQ91hd',
+        desc: 'Icelandic Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/7L0izGzp9W85naH8QUBYe2',
+        desc: 'Greek Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/1dmDBcwQffiuxdOI8w7pLR',
+        desc: 'Armenian Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/7FCnqHlYRs2RcnMcBRlj5a',
+        desc: 'Croatian Pop. ',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/5n4uYhHyaVJ8QBRF4WFn0R',
+        desc: 'Swahili Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/5IRBWRvuAHxELkJrt2QlTr',
+        desc: 'Quechuan Pop.',
+        active: true,
+      }, {
+        genre: 'pop',
+        code: 'https://open.spotify.com/embed/track/3V5YcSq5p8hdJUIt7NvgeB',
+        desc: 'Bulgarian Pop.',
+        active: true,
+      },
+    ]
 
   public currentIframe = {
     genre: '',
@@ -528,6 +960,58 @@ export class HomeComponent implements OnInit {
 
       console.log(this.currentState.index);
       this.currentIframe = this.rapList[this.currentState.index];
+    }
+  }
+  // this is my jazz click.
+  jazzClick(){
+    console.log(this.currentState.index);
+    if( this.currentState.genre != 'jazz'){
+      this.currentState.genre = 'jazz';
+      this.currentIframe = this.jazzList[0];
+    }else{
+      this.currentState.index = this.currentState.index + 1;
+      
+      if(this.currentState.index === this.jazzList.length){
+        this.currentState.index = 0;
+      }
+
+      console.log(this.currentState.index);
+      this.currentIframe = this.jazzList[this.currentState.index];
+    }
+  }
+   // this is my folk click.
+   folkClick(){
+    console.log(this.currentState.index);
+    if( this.currentState.genre != 'folk'){
+      this.currentState.genre = 'folk';
+      this.currentIframe = this.folkList[0];
+    }else{
+      this.currentState.index = this.currentState.index + 1;
+      
+      if(this.currentState.index === this.folkList.length){
+        this.currentState.index = 0;
+      }
+
+      console.log(this.currentState.index);
+      this.currentIframe = this.folkList[this.currentState.index];
+    }
+  }
+
+  // this is my pop click.
+  popClick(){
+    console.log(this.currentState.index);
+    if( this.currentState.genre != 'pop'){
+      this.currentState.genre = 'pop';
+      this.currentIframe = this.popList[0];
+    }else{
+      this.currentState.index = this.currentState.index + 1;
+      
+      if(this.currentState.index === this.popList.length){
+        this.currentState.index = 0;
+      }
+
+      console.log(this.currentState.index);
+      this.currentIframe = this.popList[this.currentState.index];
     }
   }
 
