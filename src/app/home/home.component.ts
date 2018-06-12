@@ -19,7 +19,8 @@ export class HomeComponent implements OnInit {
     {
       genre: 'rock',
       code: 'https://open.spotify.com/embed/track/06CDvHPv4UERdZh3HgdSVR',
-      desc: 'German rock.',
+      desc: 'German Rock.',
+      flag: 'assets/images/WRLD.png',
       active: true,
     },
     {
@@ -472,12 +473,12 @@ export class HomeComponent implements OnInit {
         active: true,
       },
     ]
-    // now this in my rap list.
+    // now this in my jazz list.
     public jazzList = [
       {
         genre: 'jazz',
-        code: 'https://open.spotify.com/embed/track/6Ry0yBrx43cBlgkSJ5v9Rd',
-        desc: 'German Jazz.',
+        code: 'https://open.spotify.com/embed/track/33dTn2q6GQXGQAbd9EnZsJ',
+        desc: 'Hindi Jazz.',
         active: true,
       },{
         genre: 'jazz',
@@ -620,8 +621,8 @@ export class HomeComponent implements OnInit {
     public folkList = [
       {
         genre: 'folk',
-        code: 'https://open.spotify.com/embed/track/6Ry0yBrx43cBlgkSJ5v9Rd',
-        desc: 'German Folk.',
+        code: 'https://open.spotify.com/embed/track/6nmZENPqrHx1SzQOKE8INt',
+        desc: 'Hindi Folk.',
         active: true,
       },{
         genre: 'folk',
@@ -764,8 +765,8 @@ export class HomeComponent implements OnInit {
     public popList = [
       {
         genre: 'pop',
-        code: 'https://open.spotify.com/embed/track/6Ry0yBrx43cBlgkSJ5v9Rd',
-        desc: 'German Pop.',
+        code: 'https://open.spotify.com/embed/track/4zuthiRjgwbVdqLL2G5C3x',
+        desc: 'Hindi Pop.',
         active: true,
       },{
         genre: 'pop',

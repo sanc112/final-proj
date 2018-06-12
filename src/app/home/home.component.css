@@ -2,7 +2,7 @@
     background-color: black;
     background-size: cover;
     width:100vw;
-    height:90vh;
+    height:100vh;
 }
  h1 {
      font-size: 20px;
@@ -60,6 +60,10 @@ iframe {
 margin-top: 40px;
 }
 
+p{
+    color:white;
+    text-align: center;
+}
     
 
 
