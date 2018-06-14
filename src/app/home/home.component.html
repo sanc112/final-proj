@@ -1,4 +1,5 @@
-<div id="background">
+<div id="background" [ngClass]="{'different-background': changeBackground}" [ngClass]="{'pop-background': changePopBackground}"> 
+  
   <div class="container">
     <div class="row">
       <div class="col">
@@ -36,6 +37,7 @@
             <div class="content" *ngIf="currentIframe.active">
               <iframe width="100%" height="330" [src]="currentIframe.code | safe"></iframe>
               <p>{{currentIframe.desc}}</p>
+              <!-- <img [src]="currentIframe.flag" alt=""> -->
             </div>
             <!-- These are my extra divvvvvv's -->
           </div>

@@ -4,6 +4,10 @@
     width:100vw;
     height:100vh;
 }
+
+.different-background{
+    background-image: url('../../assets/rocks.jpg') !important;
+}
  h1 {
      font-size: 20px;
      color: #f9f9f9;

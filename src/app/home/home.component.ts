@@ -8,6 +8,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./home.component.css', '../_theme/loader.css']
 })
 export class HomeComponent implements OnInit {
+  public changeBackground = false;
   public loader = true;
   public arrayLengths = [0];
   public currentState = {
@@ -98,6 +99,7 @@ export class HomeComponent implements OnInit {
       code: 'https://open.spotify.com/embed/track/4MdKI8sKykyDGEhR0ftYms',
       desc: 'Punjabi rock.',
       active: true,
+      // flag: 'asssets/'
     }, {
       genre: 'rock',
       code: 'https://open.spotify.com/embed/track/4mydBcsS18KQ0r00MBjCb2',
@@ -914,6 +916,7 @@ export class HomeComponent implements OnInit {
 
   // this is my rock click button thing
   rockClick(){
+    this.changeBackground =true;
     console.log(this.currentState.index);
     if( this.currentState.genre != 'rock'){
       this.currentState.genre = 'rock';
